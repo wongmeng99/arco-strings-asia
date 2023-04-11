@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <style>
+        /* [class*="col"] {
+            padding: 1rem;
+            background-color: #33b5e5;
+            border: 2px solid #fff;
+            color: #fff;
+
+        } */
+    </style>
+    
+    
+    
+</head>
+<body>
+<!-- --Navbar-- -->
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Arco Strings Asia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- --Navbar-- -->
+
+  <div class="container-md mt-5">
+    <div id="carousell" class="carousel" data-bs-ride="carousel" >
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousell" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carousell" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carousell" data-bs-slide-to="2"></button>
+      </div>
+    
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner m-1">
+        <div class="carousel-item active">
+          <img src="../image/png1.jpeg" alt="Los Angeles" class="d-block w-100">
+          <h3>Los angeles</h3>
+          <p>we had such a great time in LA</p>
+        </div>
+        <div class="carousel-item">
+          <img src="../image/png2.jpeg" alt="Chicago" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="../image/png3.jpeg" alt="New York" class="d-block w-100">
+        </div>
+      </div>
+    
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousell" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousell" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container-fluid pt-5 text-center">
+    <h2>About Us</h2>
+    <p class="text-warning">We specialised in violins</p>
+  </div>
+  <div class="container p-5 my-5 bg-dark text-white text-center">We are located in Subang Jaya</div>
+
+  <div class="container p-5 my-5 bg-primary text-white text-center">
+    We specialised in repairing, teaching and have a range of violins for your viewing now
+  </div>
+
+  <div class="container-md-8 text-center">
+    <a href="../test.html" class="btn btn-info" role="button">Link Button</a>
+  </div>
+
+  <form>
+    <div class="container">
+      <div class= "mb-3 ">
+        <h2>Contact Us</h2>
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+  </form>
+  
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p>Footer</p>
+</div>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
