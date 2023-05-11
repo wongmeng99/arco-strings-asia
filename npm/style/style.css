@@ -3,3 +3,22 @@
     max-height: 1000px;
   }
    */
+#map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
+
+.link-style {
+    text-decoration: none;
+    color: black;
+  }
+
+  .carousel-item active{
+    width: 500px;
+    height: 500px;
+  }
+  .carousel-item{
+    width: 500px;
+    height: 500px;
+  }
+
